@@ -19,7 +19,7 @@ def assign_rooms(speakers)
   speakers.each_with_index{|speaker,index|
   assign.push("Hello, #{speaker}! You'll be assigned to room #{index + 1}!")
     }
-   puts assign
+   return assign
 end 
 
 def printer(attendees)
