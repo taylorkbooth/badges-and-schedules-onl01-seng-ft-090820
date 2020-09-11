@@ -7,11 +7,11 @@ end
 
 
 def batch_badge_creator(array)
-  newarray = []
+  badges = []
   array.each do |name|
-    newarray.push("Hello, my name is #{name}.")
+    badges.push("Hello, my name is #{name}.")
   end
-  return nuarray
+  return badges
 end
 
 
